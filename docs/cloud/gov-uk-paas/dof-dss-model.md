@@ -1,6 +1,6 @@
 # Gov.UK PaaS Hosting Model for DoF DSS
 
-The chosen DoF DSS model for deploying enterprise services to the Hov.UK platform is for each service to be contained within its own Org. Each additional org has multiple spaces. Spaces represent environments that are appropriate for the service.
+The chosen DoF DSS model for deploying enterprise services to the Gov.UK platform is for each service to be contained within its own Org. Each additional org has multiple spaces. Spaces represent environments that are appropriate for the service.
 
 The main DoF DSS Org is used by DoF DSS to develop, test and run services owned and operated by DoF DSS which are not enterprise services.
 
