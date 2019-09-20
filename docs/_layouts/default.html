@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 	<html>
+
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
+
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
+
+			<div id="header" class="header">
+				<img src="/images/digitalni.png"/>
+			  <div class="header_container">
+			    <h4 class="organisation_name">Enterprise Architecture</h4>
+					<nav>
+						<a href="#">GitHub</a>
+					</nav>
+			    <a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
+			      <i class="fa fa-bars"></i>
+			    </a>
+			  </div>
+			</div>
+
 			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
+				{{ content }}
+			</div>
+
 			<footer>
-	    		<ul>
-	        		<li><a href="mailto:ea-team@ea.finance-ni.gov.uk">email</a></li>
-	        		<li><a href="https://github.com/dof-dss">github.com/dof-dss</a></li>
-				</ul>
 			</footer>
+
 		</body>
 	</html>

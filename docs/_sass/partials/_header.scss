@@ -1,0 +1,97 @@
+
+.header {
+  color: $header-color;
+  background-color: $header-background-color;
+  border-bottom-style: solid;
+  border-bottom-width: $header-bottom-border-width;
+  border-bottom-color: $header-border-color;
+  overflow: hidden;
+}
+
+.header img {
+  float: left;
+  height: 3em;
+  padding: 0.5em 0em 0.5em 1.0em;
+}
+
+.header .header_container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 55em;
+  padding-top: 1.0em;
+  padding-bottom: 0.5em;
+}
+
+.header .header_container .organisation_name {
+  float: left;
+  display: block;
+  color: inherit;
+  font-weight: bolder;
+}
+
+.header .header_container nav {
+  border: 0;
+  margin-bottom: 0;
+}
+
+.header .header_container nav a {
+  float: right;
+  display: block;
+  color: inherit;
+  // padding: 0.5em;
+}
+
+.header.responsive a {
+  float: none;
+}
+
+.header.responsive .organisation_name {
+  float: none;
+}
+
+.header .icon {
+  display: none;
+}
+
+.header a {
+  color: inherit;
+
+  &:focus {
+    color: black;
+  }
+}
+
+.header .icon {
+  display: none;
+}
+
+/*
+When the screen is less than 600 pixels wide, hide all links.
+Show the link that should open and close the header (.icon)
+*/
+@media screen and (max-width: 600px) {
+  .header a:not(:last-child){display: none;}
+  .header a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/*
+The "responsive" class is added to the header with JavaScript when the user
+clicks on the icon. This class makes the header look good on small screens
+(display the links vertically instead of horizontally)
+*/
+@media screen and (max-width: 600px) {
+  .header.responsive {position: relative;}
+  .header.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .header.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

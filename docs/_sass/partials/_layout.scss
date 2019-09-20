@@ -1,0 +1,10 @@
+@mixin my-outer-container() {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 55em;
+  padding: 2em 0;
+}
+
+.container {
+  @include my-outer-container;
+}
