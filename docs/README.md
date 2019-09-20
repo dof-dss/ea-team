@@ -1,3 +1,8 @@
+---
+layout: default
+title: DSS Enterprise Architecture Team
+---
+
 # DSS Enterprise Architecture Team
 
 ## What do we do?
