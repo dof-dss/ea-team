@@ -26,6 +26,6 @@ Where we are not responsible for the delivery of architecture artefacts we can h
 ## What are we working on?
 
 We are working on the implementation of the [Citizen Services Architecture Roadmap](https://docs.ea.digitalni.gov.uk/#roadmap). In Q3 2019 we are working specifically on the following Phase 1 initiatives:
-- [API Management](/docs/initiatives/phase-one/api-management.md)
-- [Documentation and configuration repository](/docs/initiatives/phase-one/documentation-config-repo.md)
-- [Usage Tracking Service](/docs/initiatives/phase-one/usage-tracking-service.md)
+- [API Management](initiatives/phase-one/api-management.html)
+- [Documentation and configuration repository](initiatives/phase-one/documentation-config-repo.html)
+- [Usage Tracking Service](initiatives/phase-one/usage-tracking-service.html)

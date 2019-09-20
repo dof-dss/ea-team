@@ -1,3 +1,8 @@
+---
+layout: default
+title: Configuration repository and DEVOPS pipeline
+---
+
 # Implement documentation and configuration repository and DEVOPS pipeline
 
 ## Mission
@@ -24,7 +29,7 @@ At present there is no unified way of handling software documentation. Software 
 
 #### Scenario 1
 
-A user rings the help desk to report an issue with one of their critical line of business systems. The system was developed by an internal development team several years ago. The organisation which has responsibility for supporting the system is notified of the issue and begin to investigate, however, the developers that originally worked on the software have moved on. The new developers tasked with investigating the solution have no experience with the technology or architecture the software was created in. The developers cannot find any documentation which details how to get the solution running locally so are unable to debug the issue easily. The development team also cannot find any documentation on what the software is supposed to do. The developers check logs to help identify where the issue might be, although due to the poor quality of the original solution the log messages are of little benefit. 
+A user rings the help desk to report an issue with one of their critical line of business systems. The system was developed by an internal development team several years ago. The organisation which has responsibility for supporting the system is notified of the issue and begin to investigate, however, the developers that originally worked on the software have moved on. The new developers tasked with investigating the solution have no experience with the technology or architecture the software was created in. The developers cannot find any documentation which details how to get the solution running locally so are unable to debug the issue easily. The development team also cannot find any documentation on what the software is supposed to do. The developers check logs to help identify where the issue might be, although due to the poor quality of the original solution the log messages are of little benefit.
 
 The development team spend several days trying to reverse engineer the solution, eventually it is tracked back to a permissions issue on a feature the user is attempting to access. The issue is easily resolved by adding the user to the correct security group, the fix itself takes seconds to apply.
 
@@ -40,7 +45,7 @@ We will move to a 'Code in the open' ethos, this means that everything we do wil
 
 We will migrate DoF DSS developers to GitHub
 
-To effectively document our software all documentation will live with the code. 
+To effectively document our software all documentation will live with the code.
 A core set of documents will be required for each product (service), these are:
 
 1. Why did we build this?
@@ -76,4 +81,3 @@ We will build CI/CD pipeline templates for Gov.uk PaaS hosted solutions.
 | `Setup DoF DSS Org on Gov.uk PaaS` | Create an organisation on Gov.uk PaaS for DoF DSS with sandbox, staging and production environments (spaces) | Done |
 | `Configure Github access for on-prem CI/CD tools` | Allow tools such as Jenkins access to the organisation to allow for on-prem builds | In Progress |
 | `Configure Github for Jira Integration` | Allow the Jira access to the organisation | Backlog |
-
