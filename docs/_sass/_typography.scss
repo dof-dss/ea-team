@@ -1,0 +1,82 @@
+html {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  line-height: $base-line-height;
+}
+
+body {
+  font-size: calc(12px + .47vw); /* responsive base font size giving 18px at max size */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  line-height: $heading-line-height;
+  margin: 0 0 $small-spacing;
+}
+
+// https://www.modularscale.com/?1,1140,12&em&1.3
+h1 {
+  font-size: 1.912em;
+}
+
+h2 {
+  font-size: 1.616em;
+}
+
+h3 {
+  font-size: 1.471em;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+h5 {
+  font-size: 1.243em;
+}
+
+h6 {
+  font-size: 1.132em;
+  color: $h6-font-color;
+}
+
+p {
+  margin: 0 0 $small-spacing;
+}
+
+a {
+  color: $action-color;
+  text-decoration: none;
+  text-decoration-skip: ink;
+  transition: color $base-duration $base-timing;
+  padding: 0.15em;
+
+  &:hover {
+    color: shade($action-color, 25%);
+    text-decoration: underline;
+  }
+
+  &:focus {
+    color: $focus-color;
+    background-color: $focus-background-color;
+    // outline: $focus-outline;
+    // outline-offset: $focus-outline-offset;
+  }
+}
+
+p a {
+  text-decoration: underline;
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: $base-spacing 0;
+}

@@ -1,2 +1,4 @@
 name: EA Team, Digital Shared Services
 markdown: kramdown
+sass:
+  style: compact
