@@ -7,7 +7,12 @@ title: Configuration repository and DEVOPS pipeline
 
 ## Mission
 
-The core objectives of this initiative is to provide a common document repository for technical documentation, source control for managing configuration and customisations of solutions and a common build pipeline with support for dev/test environments. The adoption of new 'Code in the Open' approach will drive transparency and accountability. Build a common or reusable delivery pipeline which ensures quality throughout and helps development teams deliver higher quality software to customers faster.
+The core objectives of this initiative are:
+
+1. to provide a common document repository for technical documentation, 
+2. source control for managing configuration and customisations of solutions,
+3. build a common or reusable delivery pipeline which ensures quality throughout and helps development teams deliver higher quality software to customers faster.
+
 <hr />
 
 ## What problem are we solving
@@ -19,6 +24,9 @@ At present there is no unified way of handling software documentation. Software 
 ### Personas
 
 #### Developers
+
+Developers will use this 
+
 #### Operations
 #### Users
 #### Testers
