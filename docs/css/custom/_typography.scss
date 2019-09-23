@@ -70,15 +70,20 @@ a, a.navbar-brand, a.nav-link {
   }
 }
 
-footer a {
-  color: $dss-white;
-  text-decoration: underline;
+footer {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
 
-  &:hover {
-    color: black;
+  a {
+    color: $dss-white;
     text-decoration: underline;
-  }
 
+    &:hover {
+      color: black;
+      text-decoration: underline;
+    }
+  }
 }
 
 p a {
@@ -91,4 +96,26 @@ hr {
   border-right: 0;
   border-top: 0;
   margin: $base-spacing 0;
+}
+
+.toc {
+  list-style-type: none;
+  padding-left: 0.0em;
+
+  li {
+    a {
+      font-size: 95%;
+      padding-bottom: 0.5em;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0.8em;
+
+      li {
+        padding-top: 0.5em;
+        padding-bottom: 0.25em;
+      }
+    }
+  }
 }

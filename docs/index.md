@@ -4,9 +4,11 @@ title: DSS Enterprise Architecture Team
 type: page
 ---
 
-# DSS Enterprise Architecture Team
+# Enterprise Architecture Team
 
-## What do we do?
+## What is Enterprise Architecture?
+
+## What the team does
 The team facilitates and supports the delivery of digital services that enable the transformation of the business of Government; it is described more fully in our [Business Model Canvas](business-model-canvas).
 
 ## How do we do it?
@@ -24,9 +26,16 @@ We use various industry standard approaches and in doing so help to ensure that 
 
 Where we are not responsible for the delivery of architecture artefacts we can help to ensure that solutions being proposed by delivery partners undergo the same level of scrutiny as those produced internally.
 
-## What are we working on?
+## What we are working on
 
 We are working on the implementation of the [Citizen Services Architecture Roadmap](https://docs.ea.digitalni.gov.uk/#roadmap). In Q3 2019 we are working specifically on the following Phase 1 initiatives:
 - [API Management](initiatives/phase-one/api-management)
 - [Documentation and configuration repository](initiatives/phase-one/documentation-config-repo)
 - [Usage Tracking Service](initiatives/phase-one/usage-tracking-service)
+
+## How to request architecture work
+
+You should send a [Request for Architecture Work][1] to the [EA Team][2].
+
+[1]: https://ea-team.digitalni.gov.uk/request-for-architecture-work
+[2]: mailto:ea-team@ea.finance-ni.gov.uk
