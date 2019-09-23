@@ -1,0 +1,6 @@
+- name: Docs
+  link: /
+- name: Blog
+  link: /posts.html
+- name: Github
+  link: https://github.com/dof-dss/ea-team

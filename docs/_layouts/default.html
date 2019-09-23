@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-	<html>
+<html>
 
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-		</head>
+	<head>
+		<title>{{ page.title }}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	</head>
 
-		<body>
-			{% include navbar.html %}
+	<body>
+		{% include navbar.html %}
 
-			<div class="container mt-4">
-				{{ content }}
-			</div>
+		<div class="container mt-4">
+			{% include toc.html %}
 
-			{% include footer.html %}
-		</body>
-	</html>
+			{{ content }}
+		</div>
+
+		{% include footer.html %}
+	</body>
+</html>

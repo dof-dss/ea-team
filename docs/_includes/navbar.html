@@ -8,15 +8,11 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item {% if page.type == "page" %} active {% endif %}">
-        <a class="nav-link" href="/">Docs <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item {% if page.type == "post" %} active {% endif %}">
-        <a class="nav-link" href="/posts.html">Blog</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://github.com/dof-dss/ea-team">GitHub</a>
-      </li>
+      {% for item in site.data.navigation %}
+        <li class="nav-item {% if page.url == item.link %} active {% endif %}">
+          <a class="nav-link" href="{{ item.link }}">{{ item.name }}<span class="sr-only">(current)</span></a>
+        </li>
+      {% endfor %}
     </ul>
   </div>
 </nav>
