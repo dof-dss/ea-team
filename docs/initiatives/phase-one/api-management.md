@@ -17,8 +17,8 @@ The core objectives of this mission are to:
 ## What problem are we solving
 
 There is very limited reuse of application components outside of any specific application. APIs are not widely used to provide integration between
-applications and therefore there is little visibility of them. This dramatically reduces the possibility of re-use at a service level and leads to
-duplication at a code level.
+applications and therefore there is little visibility of them. This dramatically reduces the possibility of re-use at a service level and potentially
+leads to duplication at a code level.
 
 ### Context
 
