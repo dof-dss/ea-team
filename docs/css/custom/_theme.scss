@@ -11,6 +11,14 @@ $base-font-color: $dss-font-colour;
 // components
 $dss-nav-border-height: 0.5em;
 
+footer {
+  color: $dss-white;
+  background-color: $dss-grey;
+  border-top: 1px solid gray;
+  height: 3em;
+  padding-top: 0.75em;
+}
+
 //
 // Bootstrap customisations
 //

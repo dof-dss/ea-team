@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Configuration repository and DEVOPS pipeline
+type: page
 ---
 
 # Implement documentation and configuration repository and DEVOPS pipeline
@@ -71,6 +72,7 @@ We will build CI/CD pipeline templates for Gov.uk PaaS hosted solutions.
 
 #### August 2019 to October 2019
 
+{:class="table table-striped table-bordered"}
 | Task | Description | Status |
 | --- | --- | --- |
 | `Create a DoF DSS Github Organisation` | Setup a Github Organisation for DoF DSS. All repositories should be open source. | Done |

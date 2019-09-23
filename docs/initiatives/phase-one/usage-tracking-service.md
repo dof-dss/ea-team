@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Usage Tracking Service
+type: page
 ---
 
 # Usage Tracking Service
