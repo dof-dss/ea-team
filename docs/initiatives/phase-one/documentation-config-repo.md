@@ -19,9 +19,16 @@ The core objectives of this initiative are:
 
 ### Context
 
-At present there is no unified way of handling software documentation. Software documentation is sporadic at best and non-existent at worst. When documentation does exist it is often hard to find and of varying formats and quality. Software configuration between environments is often a manual process and can lead to inconsistencies which makes identifying bugs before production more difficult. DevOps, and more specifically CI/CD pipelines are not common practice. Some teams use CI tools to varying degrees, others avoid them entirely and rely on purely manual process. The end result is that features ship late, are of low quality and are not easily maintainable by newcomers which leads to knowledge being held by a small number of team members.
+##### Documentation
+At present there is no unified way of handling software documentation. Software documentation is sporadic at best and non-existent at worst. When documentation does exist it is often hard to find and of varying formats and quality. 
 
-### Personas
+##### Configuration
+Software configuration between environments is often a manual process and can lead to inconsistencies which makes identifying bugs before production more difficult. 
+
+##### DevOps Pipelines
+DevOps, and more specifically CI/CD pipelines are not common practice. Some teams use CI tools to varying degrees, others avoid them entirely and rely on a purely manual process. The end result is that features ship late, are of low quality and are not easily maintainable by newcomers which leads to knowledge being held by a small number of team members.
+
+### Key Personas
 
 * Developers
 * Operations
@@ -46,9 +53,16 @@ The development team also had to allocate their most skilled developers to inves
 
 ## How will we deliver this
 
-We will move to a 'Code in the open' ethos, this means that everything we do will be publically visible and accessible. This will encourage transparency, accountability and collaboration.
+To adhere to the [Ethical Principals](https://docs.ea.digitalni.gov.uk/#ethical-principles) as set out in the [NICS Citizen Services Architecture](https://docs.ea.digitalni.gov.uk/) we will adopt a 'Code in the open' ethos, this means that everything we do will be publically visible and accessible. The aim of this is to encourage and foster transparency, accountability and collaboration. For more information on this approach see the following:
 
-We will migrate DoF DSS developers to GitHub
+* https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable
+* https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/
+
+#### Documentation
+
+We have choosen GitHub as our hosted Git solution. For information on why we have choosen Github see [here]()
+
+Each repository created within the [dof-dss](https://github.com/dof-dss) Github organisation should have the following structure:
 
 To effectively document our software all documentation will live with the code.
 A core set of documents will be required for each product (service), these are:
@@ -65,6 +79,8 @@ A core set of documents will be required for each product (service), these are:
 4. Product Roadmap
 5. How to deploy
 6. How to run
+
+To make this easier we have created a [template repository](https://github.com/dof-dss/dof-dss-repo) which already contains this. When creating a new repository you simply choose the dof-dss-repo as your starting point, this will add all the common files to your repository. After you ahve done this you simply need to add the content.
 
 We will migrate hosting of our products to the public cloud, specifically Gov.uk PaaS. This will facilitate faster provisioning of environments.
 
