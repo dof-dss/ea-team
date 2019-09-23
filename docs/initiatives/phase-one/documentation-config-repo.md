@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Configuration repository and DEVOPS pipeline
-type: page
 ---
 
 # Implement documentation and configuration repository and DEVOPS pipeline
@@ -10,9 +9,9 @@ type: page
 
 The core objectives of this initiative are:
 
-1. to provide a common document repository for technical documentation, 
-2. source control for managing configuration and customisations of solutions,
-3. build a common or reusable delivery pipeline which ensures quality throughout and helps development teams deliver higher quality software to customers faster.
+1. provide a central documentation repository for technical documentation in a collaborative environment, 
+2. provide a central configuration repository to allow configuration settings to be treated the same way as source code,
+3. implement a devops pipeline (build/deploy/test) and support on-demand development/test environments
 
 <hr />
 
@@ -24,15 +23,12 @@ At present there is no unified way of handling software documentation. Software 
 
 ### Personas
 
-#### Developers
-
-Developers will use this 
-
-#### Operations
-#### Users
-#### Testers
-#### External Suppliers
-#### Contributors
+* Developers
+* Operations
+* Users
+* Testers
+* External Suppliers
+* Contributors
 
 ### Scenarios
 
@@ -80,7 +76,6 @@ We will build CI/CD pipeline templates for Gov.uk PaaS hosted solutions.
 
 #### August 2019 to October 2019
 
-{:class="table table-striped table-bordered"}
 | Task | Description | Status |
 | --- | --- | --- |
 | `Create a DoF DSS Github Organisation` | Setup a Github Organisation for DoF DSS. All repositories should be open source. | Done |
