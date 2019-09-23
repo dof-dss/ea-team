@@ -9,26 +9,12 @@
 		</head>
 
 		<body>
+			{% include navbar.html %}
 
-			<div id="header" class="header">
-				<img src="/images/digitalni.png"/>
-			  <div class="header_container">
-			    <h4 class="organisation_name">Enterprise Architecture Team</h4>
-					<nav>
-						<a href="https://github.com/dof-dss/ea-team">GitHub</a>
-					</nav>
-			    <a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
-			      <i class="fa fa-bars"></i>
-			    </a>
-			  </div>
-			</div>
-
-			<div class="container">
+			<div class="container mt-4">
 				{{ content }}
 			</div>
 
-			<footer>
-			</footer>
-
+			{% include footer.html %}
 		</body>
 	</html>

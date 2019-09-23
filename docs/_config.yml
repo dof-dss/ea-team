@@ -1,5 +1,7 @@
 name: EA Team, Digital Shared Services
 markdown: kramdown
+redcarpet:
+    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
 sass:
   style: compact
-  
+  sass_dir: css

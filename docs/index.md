@@ -1,12 +1,13 @@
 ---
 layout: default
 title: DSS Enterprise Architecture Team
+type: page
 ---
 
 # DSS Enterprise Architecture Team
 
 ## What do we do?
-The team facilitates and supports the delivery of digital services that enable the transformation of the business of Government.
+The team facilitates and supports the delivery of digital services that enable the transformation of the business of Government; it is described more fully in our [Business Model Canvas](business-model-canvas).
 
 ## How do we do it?
 We do it by:

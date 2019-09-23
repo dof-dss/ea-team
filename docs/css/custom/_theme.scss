@@ -1,0 +1,24 @@
+// DSS theme
+
+// colours
+$dss-blue: #0a7ad0;
+$dss-white: white;
+$dss-grey: #b3b3b3;
+$dss-font-colour: #333333;
+
+$base-font-color: $dss-font-colour;
+
+// components
+$dss-nav-border-height: 0.5em;
+
+//
+// Bootstrap customisations
+//
+$theme-colors: (
+  "primary": $dss-blue
+);
+
+.navbar {
+  background-color: $dss-blue;
+  border-bottom: solid $dss-nav-border-height $dss-grey;
+}
