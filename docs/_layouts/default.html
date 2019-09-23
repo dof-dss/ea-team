@@ -11,9 +11,14 @@
 	<body>
 		{% include navbar.html %}
 
-		<div class="container mt-3">
-			{% include toc.html %}
-			{{ content }}
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-3">
+					{% include toc.html html=content %}
+				</div>
+				<div class="col">
+					{{ content }}
+			</div>
 		</div>
 
 		{% include footer.html %}
