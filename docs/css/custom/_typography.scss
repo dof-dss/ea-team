@@ -50,7 +50,7 @@ p {
   margin: 0 0 $small-spacing;
 }
 
-a, a.nav-link {
+a, a.navbar-brand, a.nav-link {
   color: $action-color;
   text-decoration: none;
   text-decoration-skip: ink;
@@ -68,6 +68,17 @@ a, a.nav-link {
     // outline: $focus-outline;
     // outline-offset: $focus-outline-offset;
   }
+}
+
+footer a {
+  color: $dss-white;
+  text-decoration: underline;
+
+  &:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
 }
 
 p a {

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: API Management
+type: page
 ---
 
 # API Management
