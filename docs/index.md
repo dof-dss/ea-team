@@ -6,7 +6,62 @@ type: page
 
 # Enterprise Architecture Team
 
-## What is Enterprise Architecture?
+## What is architecture?
+
+Architecture can be defined as:
+
+> Documentation describing the structure (components) and behaviour (processes) of a system. A detailed plan to guide its implementation.
+{:class="blockquote"}
+
+or
+
+> The process for describing the architecture of a system to meet given requirements and under given constraints.
+{:class="blockquote"}
+
+### Architecture granularity
+
+Architecture is normally considered at the following levels of increasing detail:
+
+![picture of architecture granularity](images/architecture-granularity.png)
+
+### Enterprise architect goals
+
+- Improved alignment of business and IT
+- Improved IT cost-effectiveness
+- Business agility
+- Technical agility
+- Long-term planning
+- Vendor and technology independence
+- De-duplication of applications and technologies
+- Interoperability of applications and technologies
+- Simpler systems and systems management
+- Improved procurement
+
+### Solution architect goals
+
+- Timeliness of IS/IT project deliverables
+- Cost of IS/IT project deliverables
+- Quality of IS/IT project deliverables
+- Solution-level risk identification and mitigation
+- Application integration and integrity
+- Conformance to non-functional and audit requirements
+- Conformance to principles, standards and legislation
+- Effective interaction between managers and technologists
+- Governance of detailed design to architecture principles and standards
+
+### Architecture domains
+
+Architecture consists of four primary domains:
+
+{:class="table table-striped table-bordered"}
+| Name | Description |
+| --- | --- |
+| Business  | Functions, capabilities, processes and people |
+| Data | Information, data, storage and movement |
+| Applications | Application functionality, structure and behaviour |
+| Technology   | Application functionality, structure and behaviour of technology platform |
+
+**Security Architecture** is increasingly being recognised as a domain in its own right also.
 
 ## What the team does
 The team facilitates and supports the delivery of digital services that enable the transformation of the business of Government; it is described more fully in our [Business Model Canvas](business-model-canvas).

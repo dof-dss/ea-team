@@ -1,7 +1,3 @@
 name: EA Team, Digital Shared Services
-markdown: kramdown
-kramdown:
-  parse_block_html: true
 sass:
-  style: compact
   sass_dir: css
