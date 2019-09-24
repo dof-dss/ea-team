@@ -1,6 +1,6 @@
 application:
   name: DSS Enterprise Architecture Team
-  image: /images/digitalni.png
+  image: /assets/images/digitalni.png
   image-height: 45px
 
 links:

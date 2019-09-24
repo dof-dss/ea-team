@@ -4,24 +4,27 @@
 	<head>
 		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		{% include navbar.html %}
 
-		<div class="container-fluid pt-5">
+		<div class="container-fluid pt-4">
 			<div class="row">
-				<div class="col-3 pt-5 toc-container">
+				<div class="col-sm-3 d-none d-lg-block pt-5 toc-container">
 					{% include toc.html html=content class="toc" %}
 				</div>
-				<div class="col-6 pt-5 ml-2">
+				<div class="col-md-12 col-lg-6 pt-5 ml-2">
 					{{ content }}
 				</div>
 			</div>
 		</div>
 
 		{% include footer.html %}
+
+		<script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 	</body>
 </html>

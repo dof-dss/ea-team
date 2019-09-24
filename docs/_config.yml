@@ -1,3 +1,4 @@
 name: EA Team, Digital Shared Services
 sass:
-  sass_dir: css
+  sass_dir: assets/css
+  style: compressed

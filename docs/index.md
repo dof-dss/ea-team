@@ -22,7 +22,7 @@ or
 
 Architecture is normally considered at the following levels of increasing detail:
 
-![picture of architecture granularity](images/architecture-granularity.png)
+![picture of architecture granularity](assets/images/architecture-granularity.png)
 
 ### Enterprise architect goals
 
