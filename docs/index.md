@@ -24,6 +24,8 @@ Architecture is normally considered at the following levels of increasing detail
 
 ![picture of architecture granularity](assets/images/architecture-granularity.png)
 
+The scope of Enterprise Architecture is wide and shallow, that is an Enterprise Architect needs a broad knowledge but not necessarily a deep knowledge across all [architecture domains](#architecture-domains). Solution and Software Architects do not require such a breadth of knowledge but do require deeper domain knowledge than an Enterprise Architect.
+
 ### Enterprise architect goals
 
 - Improved alignment of business and IT
@@ -56,12 +58,21 @@ Architecture consists of four primary domains:
 {:class="table table-striped table-bordered"}
 | Name | Description |
 | --- | --- |
-| Business  | Functions, capabilities, processes and people |
-| Data | Information, data, storage and movement |
-| Applications | Application functionality, structure and behaviour |
-| Technology   | Application functionality, structure and behaviour of technology platform |
+| *Business*  | Functions, capabilities, processes and people |
+| *Data* | Information, data, storage and movement |
+| *Applications* | Application functionality, structure and behaviour |
+| *Technology*  | Application functionality, structure and behaviour of technology platform |
 
 **Security Architecture** is increasingly being recognised as a domain in its own right also.
+
+### Architecture Governance
+
+Architecture deliverables are guided and constrained by:
+- **Principle:** a strategic, abstract and not-directly-actionable directive that derives from high level goals
+- **Policy:** a tactical directive that derives from objectives and that guides behaviour to lead to desired outcomes
+- **Business Rule:** a directive that directs or constrains a process or procedure
+
+An Architecture Governance Board uses these principles, policies and business rules to ensure that proposed architectures are compliant.
 
 ## What the team does
 The team facilitates and supports the delivery of digital services that enable the transformation of the business of Government; it is described more fully in our [Business Model Canvas](business-model-canvas).
