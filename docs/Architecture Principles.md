@@ -51,29 +51,30 @@ We have a bias to reuse existing assets over buying an asset.  We have a bias to
 
 ## 9. Make things secure
 Keep systems and data safe with the appropriate level of security.  
-[Read more about principle 9]
+[Read more about making things secure](./architecture%20principles/make-things-secure.md)
 
 ## 10. Make privacy integral
-Make sure users rights are protected by integrating privacy as an essential part of your system.    
-[Read more about principle 10]
+Make sure citizens' and staffs' rights are protected by integrating privacy as an essential part of your system.    
+[Read more about making privacy integral](./architecture%20principles/make-privacy-integral.md)
 
-## 11. Share, reuse and collaborate
-Avoid duplicating effort and unnecessary costs by collaborating across government and sharing and reusing technology, data, and services.    
-[Read more about principle 11]
-
-## 12. Maintain catalogues
+## 11. Maintain service catalogues
 Know and make visible as appropriate  what assets (data, applications, services, APIs, Queues, etc) are available and being managed.  
-[Read more about principle 12]
+[Read more about maintaining service catalogues](./architecture%20principles/maintain-service-catalogues.md)
 
-## 13.  Expose APIs and queues
-You must enable working together  
-[Read more about principle 13]
+## 12.  Expose APIs and meassage queues
+All data stores must be exposed via APIs.  All applications must provide APIs and/or message queues as standard to maximise reuse and interoperability.
+[Read more about exposing APIs and message queues](./architecture%20principles/expose-apis-and-message-queues.md)
 
-## 14. Compliance with the law
-duhh  
-[Read more about principle 14]
+## 13. Common vocabulary and data definitions
+Data is defined consistently throughout the enterprise, and the definitions are understandable and available to all users.
+[Read more about common vocabulary and data definitions](./architecture%20principles/common-vocabulary-and-data-definitions.md)
 
-## 15. Manage technical debt and obsolesence
-Stuff ages and gets out of date.  Manage it.  
-[Read more about principle 15]
+## 14. Compliance with law
+Enterprise information management processes comply with all relevant laws, policies, and regulations.
+[Read more about compliance with law](./architecture%20principles/compliance-with-law.md)
+
+## 15. Manage technical debt and obsolescence
+Unaddressed technical debt increases the complexity and costs of maintaining ICT making it harder to upgrade software, transition services and deliver solutions that meet users’ needs.
+[Read more about managing technical debt and obsolescence](./architecture%20principles/manage-technical-debt-and-obsolescence.md)
+
 
