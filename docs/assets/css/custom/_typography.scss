@@ -131,7 +131,7 @@ hr {
 
 blockquote {
   border-left: .25em solid $dss-grey;
-  color: #6a737d;
+  color: darken($dss-grey, 30%);
   padding: 0 1em;
 }
 
