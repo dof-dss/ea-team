@@ -33,4 +33,8 @@ $theme-colors: (
 .navbar {
   background-color: $dss-blue;
   border-bottom: solid $dss-nav-border-height $dss-grey;
+
+  &:after {
+    margin-bottom: 2em;
+  }
 }
