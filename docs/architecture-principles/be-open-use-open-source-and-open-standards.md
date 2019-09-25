@@ -9,17 +9,18 @@ Open source is a way of developing and distributing software. The code is often 
 Open standards are common rules that allow any user to create compatible and consistent products, processes and services. They are designed collaboratively, are publicly available, and free or low cost.
 
 Using open source and open standards allows your work to benefit from:-
-- solving common problems with readily available open source technology
-- saving time and resources for customised solutions to solve rare or unique problems
-- lower implementation and running costs
-- allowing open source and closed source (proprietary) software to work together
+- solving common problems with readily available open source technology.
+- saving time and resources for customised solutions to solve rare or unique problems.
+- lower implementation and running costs.
+- allowing open source and closed source (proprietary) software to work together.
+
 Be aware that open source software is not completely free, so take into account the total cost of migrating, including exit and transition costs.
 
 Publishing your code and data from the beginning will encourage:-
-- clearer documentation, making it easier for your team to maintain the code, track changes to it and for other people to use it
-- cleaner and well-structured code that is easier to maintain
-- clarity around data that needs to remain protected and how that’s achieved
-- suggestions about how the code can be improved or where security can be improved
+- clearer documentation, making it easier for your team to maintain the code, track changes to it and for other people to use it.
+- cleaner and well-structured code that is easier to maintain.
+- clarity around data that needs to remain protected and how that’s achieved.
+- suggestions about how the code can be improved or where security can be improved.
 
 ## Implications
 - All new application development code should use github as its source code repository, whether coded by NICS developers or third party developers.

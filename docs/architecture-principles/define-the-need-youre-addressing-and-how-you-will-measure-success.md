@@ -16,7 +16,16 @@ There should be good cause for introducing anything into the NICS IT landscape. 
 ```
 We believe <introducing a shiny new asset>
 Will <bring about a positive change *why*>
-For <target audience *who*>.
-We will know this is true when <we measure this change in target audience's behaviour *KPI*>
+For <users *who*>.
+We will know this is true when <we achieve target% change in users' behaviour *KPI*>
+```
+The hypothesis should then be tested to determine if the assumed 'cause and effect' relationship actually exists and if that correlation is sufficiently strong, i.e. a threshold for determining if the hypothesis is valid or not is declared up front.  For example
+
+```
+We believe caching database calls
+Will make our web page appear faster and more responsive
+For citizens applying for their AccessNI check.
+We will know this is true when we see page load times improve by 20%
+```
 
 [View list of all NICS Architecture Principles](../Architecture-Principles.md)

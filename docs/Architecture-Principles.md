@@ -26,15 +26,15 @@ In addition to a name and definition statement, each principles should have asso
 [Read more about maximising the benefits to the enterprise](./architecture-principles/maximise-benefits-to-the-enterprise.md)
 
 ## 3. Define the need you're addressing and how you will measure success
-  Understand the "why" behind your work and how you will know if you are being successful in your efforts to create value  
+  Understand the "why" behind your work and how you will know if you are being successful in your efforts to create value.  
   [Read more about defining the need you're addressing and how you will measure success](./architecture-principles/define-the-need-youre-addressing-and-how-you-will-measure-success.md)
 
 ## 4. Feedback loops
-  Feedback loops should be established as a priority to help gather factual data about how successful work efforts are in achieving the desired outcome  
+  Feedback loops should be established as a priority to help gather factual data about how successful work efforts are in achieving the desired outcome.  
 [Read more about Feedback Loops](./architecture-principles/feedback-loops.md)
 
 ## 5. No undifferentiated heavy lifting
-  Our effort should be put where we really add value. That’s why we have a cloud first policy and focus on open source software and open standards.
+  Our effort should be put where we really add value. That’s why we have a cloud first policy and focus on open source software and open standards.  
 [Read more about no undifferentiated heavy lifting](./architecture-principles/no-undifferentiated-heavy-lifting.md)
 
 ## 6. Be open, use open source and open standards
@@ -58,7 +58,7 @@ Make sure citizens' and staffs' rights are protected by integrating privacy as a
 [Read more about making privacy integral](./architecture-principles/make-privacy-integral.md)
 
 ## 11. Maintain service catalogues
-Know and make visible as appropriate  what assets (data, applications, services, APIs, Queues, etc) are available and being managed.  
+Know and make visible as appropriate what assets (data, applications, services, APIs, Queues, etc) are available and being managed.  
 [Read more about maintaining service catalogues](./architecture-principles/maintain-service-catalogues.md)
 
 ## 12.  Expose APIs and meassage queues
