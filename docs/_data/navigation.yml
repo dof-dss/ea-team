@@ -1,6 +1,12 @@
-- name: Docs
-  link: /
-- name: Blog
-  link: /posts.html
-- name: Github
-  link: https://github.com/dof-dss/ea-team
+application:
+  name: DSS Enterprise Architecture Team
+  image: /assets/images/digitalni.png
+  image-height: 45px
+
+links:
+  - name: Home
+    link: /
+  - name: Blog
+    link: /posts.html
+  - name: Github
+    link: https://github.com/dof-dss/ea-team

@@ -1,18 +1,21 @@
-<!-- Boostrap navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark">
-  <img src="/images/digitalni.png" height="45" alt="DigitalNI logo">
-  <a class="navbar-brand  ml-2" href="#">DSS Enterprise Architecture Team</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      {% for item in site.data.navigation %}
-        <li class="nav-item {% if page.url == item.link %} active {% endif %}">
-          <a class="nav-link" href="{{ item.link }}">{{ item.name }}<span class="sr-only">(current)</span></a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <!-- <div class="navbar-brand">
+      <img src="{{ site.data.navigation.application.image }}" height="{{ site.data.navigation.application.image-height }}" alt="DigitalNI logo">
+    </div> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <span>Menu</span> 
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <a class="navbar-brand" href="/">
+        {{ site.data.navigation.application.name }}
+      </a>
+      <ul class="navbar-nav ml-auto">
+        {% for item in site.data.navigation.links %}
+          <li class="nav-item {% if page.url == item.link %} active {% endif %}">
+            <a class="nav-link" href="{{ item.link }}">{{ item.name }}<span class="sr-only">(current)</span></a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
 </nav>

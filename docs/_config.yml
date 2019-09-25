@@ -1,5 +1,4 @@
 name: EA Team, Digital Shared Services
-markdown: kramdown
 sass:
-  style: compact
-  sass_dir: css
+  sass_dir: assets/css
+  style: compressed
