@@ -10,3 +10,5 @@ Being data informed helps us to make better decisions and this means seeking way
 - Prior effort has been made to identify who the users will be and their need that is being addressed by the work effort.
 - Actual users must be engaged to gain feedback and so must be partnered with during the development effort.
 - Feedback allows you to be data-informed.  It should be used to improve future decision-making.
+
+[View list of all NICS Architecture Principles](../Architecture-Principles.md)

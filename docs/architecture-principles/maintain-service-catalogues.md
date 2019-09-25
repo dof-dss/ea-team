@@ -10,4 +10,6 @@ Similarly, it is important to provide internal unified structured service catalo
  
 ## Implications
 - Leverage common service catalogue management whenever there are new services or changes to services delivered to citizens or business representatives 
-- Leverage common service catalogue management of internal assets for consumption by developers
+- Leverage common service catalogue management of internal assets for consumption by developers.
+
+[View list of all NICS Architecture Principles](../Architecture-Principles.md)

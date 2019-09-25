@@ -16,4 +16,6 @@ This principle embodies "service above self". Decisions made from an enterprise-
 
 The plan will be changed as needed.
 
-- As needs arise, priorities must be adjusted; a forum with comprehensive enterprise representation should make these decisions
+- As needs arise, priorities must be adjusted; a forum with comprehensive enterprise representation should make these decisions.
+
+[View list of all NICS Architecture Principles](../Architecture-Principles.md)

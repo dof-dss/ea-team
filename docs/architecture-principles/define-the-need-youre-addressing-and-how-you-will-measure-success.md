@@ -18,3 +18,5 @@ We believe <introducing a shiny new asset>
 Will <bring about a positive change *why*>
 For <target audience *who*>.
 We will know this is true when <we measure this change in target audience's behaviour *KPI*>
+
+[View list of all NICS Architecture Principles](../Architecture-Principles.md)

@@ -10,3 +10,7 @@ The only way the NICS will be able to provide a consistent and measurable level 
 - Without this principle, exclusions, favoritism, and inconsistency would rapidly undermine the management of information
 - Information management initiatives will not begin until they are examined for compliance with the principles
 - A conflict with a principle will be resolved by changing the framework of the initiative
+
+[Full Architecture Principles list](../Architecture-Principles.md)
+
+[View list of all NICS Architecture Principles](../Architecture-Principles.md)

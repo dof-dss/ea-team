@@ -19,3 +19,5 @@ By reusing existing technology you can benefit from:
 ## Implications
 - [Service catalogues must be maintained](./maintain-service-catalogues.md) to ensure widespread awareness of the existing assets, their health and lifecycle status
 - Assets are shared across departments to [maximise the benefits to the enterprise](./maximise-benefits-to-the-enterprise.md)
+
+[View list of all NICS Architecture Principles](../Architecture-Principles.md)

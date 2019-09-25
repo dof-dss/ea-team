@@ -26,3 +26,5 @@ Publishing your code and data from the beginning will encourage:-
 - Application source code and clear developer documentation are required deliverables as well as the application itself.
 - Great care must be taken when making source code open and reusable.  Developers should refer to the GDS Service Manual section on [making source code open and reusable](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable).
 - There are times when it's [acceptable for code to be closed source](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable#when-its-acceptable-for-code-to-be-closed-source).  For example, keys and credentials, algorithms used to detect fraud, and unreleased policy.
+
+[View list of all NICS Architecture Principles](../Architecture-Principles.md)

@@ -11,4 +11,6 @@ Citizens and staff must be able to trust services provided by the government and
 - ensure compliance with GDPR and other relevant legislation 
 
 ## Implications
-- Refer to and follow [GDS Make privacy integral](https://www.gov.uk/guidance/make-privacy-integral) when designing solutions
+- Refer to and follow [GDS Make privacy integral](https://www.gov.uk/guidance/make-privacy-integral) when designing solutions.
+
+[View list of all NICS Architecture Principles](../Architecture-Principles.md)

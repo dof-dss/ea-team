@@ -12,3 +12,5 @@ The Future ICT for the company must make changes easier. Any tactical decisions 
 - Application support and maintenance must be prioritised along with new development work.
 - Applications maintenance may be driven by decisions that deem a technology to be no longer supported within the enterprise.
 - Failure to maintain applications must be recognised as a risk to that application and all systems that depend on/consume the application.
+
+[View list of all NICS Architecture Principles](../Architecture-Principles.md)

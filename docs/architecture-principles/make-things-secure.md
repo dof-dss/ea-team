@@ -13,4 +13,6 @@ Plan how to deny, and quickly recover from, malicious access. Make sure you have
 ## Implications
 - Choose the appropriate level of security for your technology project or programme.
 - Consider the risks and have processes in place to mitigate against them and improve time to recovery.
-- Refer to and implement the advice GDS Guidance on [how to secure your technology](https://www.gov.uk/guidance/make-things-secure#how-to-secure-your-technology)
+- Refer to and implement the advice GDS Guidance on [how to secure your technology](https://www.gov.uk/guidance/make-things-secure#how-to-secure-your-technology).
+
+[View list of all NICS Architecture Principles](../Architecture-Principles.md)

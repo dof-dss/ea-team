@@ -10,3 +10,5 @@ All assets can be placed somewhere on a scale ranging from highly specialised, n
 - [Be open, use open source and open standards](./be-open-use-open-source-and-open-standards.md)
 - [Leverage public cloud capabilities](./leverage-public-cloud-capabilities.md) where appropriate
 - [Reuse over buy over build](./reuse-over-buy-over-build.md)
+
+[View list of all NICS Architecture Principles](../Architecture-Principles.md)

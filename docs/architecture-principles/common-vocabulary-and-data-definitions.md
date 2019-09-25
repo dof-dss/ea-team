@@ -12,3 +12,5 @@ The data that will be used in the development of applications must have a common
 - Whenever a new data definition is required, the definition effort will be co-ordinated and reconciled with the corporate "glossary" of data descriptions.
 - Ambiguities resulting from multiple parochial definitions of data must give way to accepted enterprise-wide definitions and understanding.
 - Functional data administration responsibilities must be assigned.
+
+[View list of all NICS Architecture Principles](../Architecture-Principles.md)
