@@ -77,4 +77,17 @@ Enterprise information management processes comply with all relevant laws, polic
 Unaddressed technical debt increases the complexity and costs of maintaining ICT making it harder to upgrade software, transition services and deliver solutions that meet users’ needs.  
 [Read more about managing technical debt and obsolescence](./architecture-principles/manage-technical-debt-and-obsolescence.md)
 
+## 16. Design for automation
+Automation of processes is a key enabler for doing more with less and a requirement for effective agile methodologies.  
+[Read more about designing for automation](./architecture-principles/design-for-automation.md)
+
+## 17. Enterprise Architecture Applies to External IT Providers
+Outsourced activities must not be exceptions to the enterprise architecture simply because they are provided by a third party.
+
+As outsourcing contracts and agreements are entered into, they must reflect and incorporate all NICS architecture principles.  
+[Read more about EA applying to External IT Providers](./architecture-principles/enterprise-architecture-applies-to-external-IT-providers.md)
+
+## 18. Something about IP / IPR
+statement  
+link
 
