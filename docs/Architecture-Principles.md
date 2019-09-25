@@ -7,12 +7,12 @@ These principles are derived primarily from the [GDS Tehcnology Code of Practice
 
 ## Benefit of having Architecture Principles
 Following the Architecture Principles will help maintain an IT landscape across NICS that:
-- meets the current needs of departments and prepares the IT landscape for evolving to meet future needs
-- enables integrated services built with a citizen centred approach
-- is easier to share across NICS and the broader public sector
-- is easier to maintain
-- scales for future use
-- provides better value for money
+- meets the current needs of departments and prepares the IT landscape for evolving to meet future needs.
+- enables integrated services built with a citizen centred approach.
+- is easier to share across NICS and the broader public sector.
+- is easier to maintain.
+- scales for future use.
+- provides better value for money.
 
 ## Components of Architecture Principles
 In addition to a name and definition statement, each principles should have associated rational and implications statements, both to promote understanding and acceptance of the principles themselves, and to support the use of the principles in explaining and justifying why specific decisions are made.
@@ -42,7 +42,7 @@ In addition to a name and definition statement, each principles should have asso
 [Read more about being open, using open source and open standards](./architecture-principles/be-open-use-open-source-and-open-standards.md)
 
 ## 7. Leverage public cloud capabilities (where appropriate)  
-  Public cloud hosting should be assessed as default choice. 
+  Public cloud hosting should be assessed as default choice.  
 [Read more about leveraging public cloud capabilities](./architecture-principles/leverage-public-cloud-capabilities.md)
 
 ## 8. Reuse over buy over build
@@ -62,19 +62,19 @@ Know and make visible as appropriate what assets (data, applications, services, 
 [Read more about maintaining service catalogues](./architecture-principles/maintain-service-catalogues.md)
 
 ## 12.  Expose APIs and meassage queues
-All data stores must be exposed via APIs.  All applications must provide APIs and/or message queues as standard to maximise reuse and interoperability.
+All data stores must be exposed via APIs.  All applications must provide APIs and/or message queues as standard to maximise reuse and interoperability.  
 [Read more about exposing APIs and message queues](./architecture-principles/expose-apis-and-message-queues.md)
 
 ## 13. Common vocabulary and data definitions
-Data is defined consistently throughout the enterprise, and the definitions are understandable and available to all users.
+Data is defined consistently throughout the enterprise, and the definitions are understandable and available to all users.  
 [Read more about common vocabulary and data definitions](./architecture-principles/common-vocabulary-and-data-definitions.md)
 
 ## 14. Compliance with law
-Enterprise information management processes comply with all relevant laws, policies, and regulations.
+Enterprise information management processes comply with all relevant laws, policies, and regulations.  
 [Read more about compliance with law](./architecture-principles/compliance-with-law.md)
 
 ## 15. Manage technical debt and obsolescence
-Unaddressed technical debt increases the complexity and costs of maintaining ICT making it harder to upgrade software, transition services and deliver solutions that meet users’ needs.
+Unaddressed technical debt increases the complexity and costs of maintaining ICT making it harder to upgrade software, transition services and deliver solutions that meet users’ needs.  
 [Read more about managing technical debt and obsolescence](./architecture-principles/manage-technical-debt-and-obsolescence.md)
 
 
