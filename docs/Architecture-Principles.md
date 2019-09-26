@@ -3,7 +3,7 @@
 ## Introduction
 Architectural Principles are long-lasting and rarely changing statements and guidelines that govern the design, implementation and operation of an organisation as it sets about fulfilling its mission. They are derived from the specific needs and priorities of the stakeholders and provide a decision-making framework for the architecture that govern its construction. A list of architectural principles defined in this section are the ones to drive architectural decisions for any citizen facing e-service or service delivery supporting platform implementation in NICS. Architectural principles can cover approaches at various levels of “depth” – some of them relate to the design process/approach, some to deployment platforms to be targeted, some are technical principles that drive implementation of the solution in a certain way, i.e., using certain patterns.
 
-These principles are derived primarily from the [GDS Tehcnology Code of Practice](https://www.gov.uk/government/publications/technology-code-of-practice/technology-code-of-practice) and [Digital Service Standards](https://www.gov.uk/service-manual/service-standard)
+These principles are derived primarily from the [GDS Technology Code of Practice](https://www.gov.uk/government/publications/technology-code-of-practice/technology-code-of-practice) and [Digital Service Standards](https://www.gov.uk/service-manual/service-standard)
 
 ## Benefit of having Architecture Principles
 Following the Architecture Principles will help maintain an IT landscape across NICS that:
@@ -61,7 +61,7 @@ Make sure citizens' and staffs' rights are protected by integrating privacy as a
 Know and make visible as appropriate what assets (data, applications, services, APIs, Queues, etc) are available and being managed.  
 [Read more about maintaining service catalogues](./architecture-principles/maintain-service-catalogues.md)
 
-## 12.  Expose APIs and meassage queues
+## 12.  Expose APIs and message queues
 All data stores must be exposed via APIs.  All applications must provide APIs and/or message queues as standard to maximise reuse and interoperability.  
 [Read more about exposing APIs and message queues](./architecture-principles/expose-apis-and-message-queues.md)
 
